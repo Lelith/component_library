@@ -1,3 +1,19 @@
+@import "utilities/variables";
+@import "utilities/mixins";
+@import "utilities/functions";
+@import "utilities/utilities";
+@import "utilities/grid";
+@import "utilities/list";
+@import "utilities/reset";
+
+@import "templates/*";
+
+@import "organisms/*";
+
+@import "molecules/*";
+
+@import "atoms/*";
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -13,7 +29,3 @@
  *= require_tree .
  *= require_self
  */
-
- .lol {
-  background-color: red;
-}

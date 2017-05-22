@@ -1,0 +1,33 @@
+/*Colors*/
+$blue:#00bfff;
+$purple:#c000ff;
+$red:#ff0040;
+$orange:#ff4000;
+$green:#40FF00;
+$white: #fff;
+$gray:#ccc;
+$gray-light:#eee;
+$gray-dark:#333;
+$black:#000;
+
+/*Fonts*/
+$font-size: 18px; //default is 16px;
+$font-stack:    Helvetica, sans-serif;
+
+/*Default sizes*/
+$xs-size:5px;
+$sm-size:15px;
+$md-size:30px;
+$lg-size:50px;
+$xl-size:100px;
+$xxl-size:200px;
+
+/*Screen sizes*/
+$xs-screen: 480px;
+$sm-screen: 768px;
+$md-screen: 992px;
+$lg-screen: 1280px;
+$xl-screen: 1920px;
+
+/*Settings*/
+$primary-color: $blue;

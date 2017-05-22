@@ -1,0 +1,14 @@
+html, body {
+  background-color: $gray-light;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin:0;
+}
+
+html *{
+  font-size: $font-size; //default is 16px
+}
+
+.font-white{
+  color: $white;
+}
