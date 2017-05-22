@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = ComponentLibrary::VERSION
   s.authors     = ["smoroso"]
   s.email       = ["stephane.moroso@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ComponentLibrary."
-  s.description = "TODO: Description of ComponentLibrary."
+  s.homepage    = ""
+  s.summary     = "Component Library"
+  s.description = "Component Library Description"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
