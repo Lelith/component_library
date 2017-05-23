@@ -1,4 +1,4 @@
-class PromoboxOrganism extends React.Component {
+class AdvertPromobox extends React.Component {
   render() {
     return (
       <div className={this.props.className}>
@@ -8,12 +8,12 @@ class PromoboxOrganism extends React.Component {
   }
 }
 
-PromoboxOrganism.propTypes = {
+AdvertPromobox.propTypes = {
   className: React.PropTypes.string,
   Promobox: React.PropTypes.object
 };
 
-PromoboxOrganism.defaultProps = {
-  className: "promobox-organism",
+AdvertPromobox.defaultProps = {
+  className: "advert-promobox",
   Promobox: {}
 };

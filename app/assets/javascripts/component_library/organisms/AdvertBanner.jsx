@@ -1,4 +1,4 @@
-class BannerOrganism extends React.Component {
+class AdvertBanner extends React.Component {
   render() {
     return (
       <div className={this.props.className}>
@@ -8,12 +8,12 @@ class BannerOrganism extends React.Component {
   }
 }
 
-BannerOrganism.propTypes = {
+AdvertBanner.propTypes = {
   className: React.PropTypes.string,
 	Banner: React.PropTypes.object
 };
 
-BannerOrganism.defaultProps = {
-  className: "banner-organism",
+AdvertBanner.defaultProps = {
+  className: "advert-banner",
   Banner: {}
 };
