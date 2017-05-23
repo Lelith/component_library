@@ -1,0 +1,5 @@
+.products-list{
+  @include display-flex;
+  @include flex-flow(row, wrap);
+  @include justify-content(space-around);
+}

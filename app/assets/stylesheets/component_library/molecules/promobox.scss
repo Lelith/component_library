@@ -1,0 +1,5 @@
+.promobox{
+  @include border-radius($xs-size);
+  background-color: $white;
+  padding: $sm-size;
+}

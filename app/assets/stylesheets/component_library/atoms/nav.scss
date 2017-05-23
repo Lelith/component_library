@@ -1,0 +1,10 @@
+.nav{
+  text-decoration: none;
+  padding: $sm-size;
+  color: $gray-dark;
+  font-size: 1.5rem;
+
+  &:hover{
+    color: lighten($gray-dark, 25%);
+  }
+}

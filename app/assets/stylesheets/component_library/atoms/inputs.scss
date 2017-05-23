@@ -1,0 +1,16 @@
+input{
+  height: $md-size;
+  line-height: $md-size;
+  width: $xxl-size;
+
+  &[type="text"]{
+    border: 1px solid $gray;
+    padding: $xs-size $sm-size;
+    margin: 0 $xs-size;
+    @include border-radius($xs-size);
+  }
+
+  &[type="textarea"]{
+    border: 1px solide $gray;
+  }
+}

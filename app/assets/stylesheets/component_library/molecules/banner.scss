@@ -1,0 +1,9 @@
+.banner{
+  @include display-flex;
+  @include flex-direction(column);
+  align-items: center;
+  padding-top: $md-size;
+  width: 100%;
+  height: $xxl-size;
+  background-color: $purple;
+}

@@ -1,0 +1,27 @@
+.product{
+  width: 80%;
+  display: inline-block;
+  margin: $xs-size 0;
+  background-color: $white;
+  border: 1px solid $gray;
+  padding: $sm-size;
+  @include border-radius(2px);
+}
+
+@media all and (min-width: $xs-screen) {
+  .product{
+    width: 40%;
+  }
+}
+
+@media all and (min-width: $sm-screen) {
+  .product{
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: $md-screen) {
+  .product{
+    width: 23%;
+  }
+}
