@@ -1,0 +1,10 @@
+.search-form{
+  display: none;
+}
+
+@media all and (min-width: $sm-screen) {
+  .search-form{
+    display: flex;
+    align-items: center;
+  }
+}

@@ -5,5 +5,20 @@
   padding-top: $md-size;
   width: 100%;
   height: $xxl-size;
-  background-color: $purple;
+  background-color: $gray;
+}
+
+.banner-info{
+  @extend .banner;
+  background-color: $blue;
+}
+
+.banner-success{
+  @extend .banner;
+  background-color: $green;
+}
+
+.banner-warning{
+  @extend .banner;
+  background-color: $orange;
 }

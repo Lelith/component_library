@@ -1,15 +1,13 @@
 class Product extends React.Component {
   render() {
-    const product = this.props.product;
-
     return (
   		<div className={this.props.className}>
-				<Image {...product.Image}></Image>
+				<Image {...this.props.Image}></Image>
 				<div className="caption">
-					<Title {...product.Title}></Title>
-					<Description {...product.Description}></Description>
+					<Title {...this.props.Title}></Title>
+					<Description {...this.props.Description}></Description>
 					<div>
-						<Button {...product.Button}></Button>
+						<Button {...this.props.Button}></Button>
 					</div>
 				</div>
   		</div>

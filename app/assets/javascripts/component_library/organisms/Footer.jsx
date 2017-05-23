@@ -1,8 +1,12 @@
 class Footer extends React.Component {
   render() {
+    const title = {
+      value: "Footer"
+    }
+
     return (
       <footer className={this.props.className}>
-				<Title title={this.props.Title}></Title>
+				<Title {...title}></Title>
 			</footer>
     )
   }
@@ -14,6 +18,6 @@ Footer.propTypes = {
 };
 
 Footer.defaultProps = {
-  className: "header",
+  className: "footer",
   Title: {}
 };

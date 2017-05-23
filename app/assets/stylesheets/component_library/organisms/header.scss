@@ -1,1 +1,10 @@
-.header{}
+.header{
+  @include display-flex;
+  align-items: center;
+  height: $lg-size;
+  line-height: $lg-size;
+  margin-bottom: $md-size;
+  width: 100%;
+  background-color: $primary-color;
+  padding: $sm-size;
+}
